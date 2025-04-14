@@ -17,6 +17,6 @@ A visually engaging clone of the **Ajio landing page**, built using pure **HTML*
 
 - HTML5
 - CSS3 (with animations & transitions)
-##Live Demo
+## Live Demo
 [Live Demo Here](https://saitejaswini-25.github.io/Ajioclone/)
 
