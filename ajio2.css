@@ -551,26 +551,44 @@ to{background-image:url(" https://assets.ajio.com/cms/AJIO/WEB/d-1.0-UHP-0712202
     background-image: url("https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-01032024-BESTSELLERS-Z8-header.jpg");
     background-size: cover;
 }
-.shop{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.shop {
+  display: flex;
+  justify-content: space-between;
 }
-.box{
-    border: 2px solid black;
-    height: 400px;
-    width: 23%;   
-    padding: 20px 0px 15px;   
+
+.box {
+  width: 30%; /* Adjust according to your preference */
+  position: relative;
+  height: 200px; /* Adjust for image size */
+  background-size: cover;
+  background-position: center;
 }
-.box1{
-    background-size: cover;
+
+.card-text {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Background for text */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;  /* Adjust size as needed */
+  white-space: normal;  /* Allows text to wrap */
+  word-wrap: break-word; /* Breaks long words */
+  overflow: hidden;     /* Prevents overflow */
+  text-align: center;   /* Centers the text */
 }
-.box2{
-    background-size: cover;
+
+.price-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
 }
-.box3{
-    background-size: cover;
-}
+
 .cares{
     margin-top: 5px;
     height: 130px;
