@@ -557,10 +557,13 @@ to{background-image:url(" https://assets.ajio.com/cms/AJIO/WEB/d-1.0-UHP-0712202
     justify-content: space-evenly;
 }
 .box{
-    border: 2px solid black;
+   
     height: 400px;
     width: 23%;   
     padding: 20px 0px 15px;   
+    background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  position: relative;
 }
 .box1{
     background-size: cover;
@@ -572,9 +575,11 @@ to{background-image:url(" https://assets.ajio.com/cms/AJIO/WEB/d-1.0-UHP-0712202
     background-size: cover;
 }
 .cares{
-    margin-top: 5px;
-    height: 130px;
+    margin-top: 2px;
+    height: 200px;
  width: 100%;
     background-image: url("https://assets.ajio.com/cms/AJIO/WEB/08032022-D-unisex-ajiocares-strip11.jpg");
     background-size: cover;
+    background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
 }
